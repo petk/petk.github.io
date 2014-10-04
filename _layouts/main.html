@@ -1,0 +1,21 @@
+<h1>Peter Kokot</h1>
+
+{{ site.github.project_title }}
+
+<ul>
+{% for contributor in site.github.contributors %}
+    <li>
+        <img src="{{ contributor.avatar_url }}" width="32" height="32" /> {{ contributor.login }}
+    </li>
+{% endfor %}
+</ul>
+
+<ul>
+    {% for repo in site.github.public_repositories %}
+    {% for contributors in repo.contributors %}
+    <li>
+        <img src="{{ contributor.avatar_url }}" width="32" height="32" /> {{ contributor.login }}
+    </li>
+    {% endfor %}
+{% endfor %}
+</ul>
