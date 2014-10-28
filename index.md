@@ -3,7 +3,10 @@ layout: main
 title: "Homepage"
 ---
 
-<h1>Peter Kokot</h1>
+# Peter Kokot
 
-<h2>Project title:</h2>
+## Project title:
+
 {{ site.github.project_title }}
+
+![GitHub Profile](https://github.com/peterkokot){:rel=nofollow}
