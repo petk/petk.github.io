@@ -3,4 +3,4 @@ source: .
 destination: ./_site
 lsi: false
 
-theme: jekyll-theme-merlot
+theme: jekyll-theme-hacker
