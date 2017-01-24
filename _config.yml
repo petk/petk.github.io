@@ -4,3 +4,10 @@ destination: ./_site
 lsi: false
 
 theme: jekyll-theme-hacker
+title: Peter Kokot
+description: [Peter Kokot - GitHub Pages]
+
+gems:
+  - 'jekyll-sitemap'
+  - 'jekyll-redirect-from'
+  - 'jekyll-seo-tag'
