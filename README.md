@@ -1,4 +1,4 @@
-# peterkokot.github.io
+# petk.github.io
 
 ## About
 
