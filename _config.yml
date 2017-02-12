@@ -6,6 +6,7 @@ lsi: false
 theme: jekyll-theme-hacker
 title: Peter Kokot
 description: [Peter Kokot - GitHub Pages]
+google_analytics: UA-91764880-1
 
 gems:
   - 'jekyll-sitemap'
